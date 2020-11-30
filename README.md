@@ -103,13 +103,12 @@ das GPIOs serão restaurados.
 
 ### Front-end 
 
- Neste link, eu fiz uma simulação de projeto desse projeto, utilizando javascript, html e css. O Front-end e back-end separados.
+ No link abaixo eu fiz uma simulação desse projeto utilizando javascript.
  
-
  https://github.com/tpaphysics/esp8266_simulation 
  
  
- O ideal seria fazer uma aplicação mobile em React Native, por exemplo. Resolvi fazer assim para testar a capacidade do dispositivo o html, css e javascript estão contidos htmlPages.h. Farei um aplicativo mobile em um projeto futuro. Mas essa API consegue interagir facilmente com aplicativos mobile, Alexa, broker MQTT, etc... 
+ O ideal seria fazer uma aplicação mobile em React Native, por exemplo. Resolvi fazer assim para testar a capacidade do dispositivo. A página HTML está no arquivo htmlPages.h. Farei um aplicativo mobile em um projeto futuro. Mas de qualquer forma essa API consegue interagir facilmente com aplicativos mobile, Alexa, broker MQTT, etc... 
 
 ### Animação do display OLED
 
