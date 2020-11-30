@@ -197,7 +197,7 @@ plt.show()
 
 ## LICENSE
 
-Licensed under the MIT [licence.](https://github.com/tpaphysics/iot_esp8266_plugs/blob/main/LICENSE)
+Licensed under the MIT [licence.](./LICENSE)
 
 
 
