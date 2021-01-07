@@ -355,28 +355,26 @@ void oledStatePlugs(byte state1, byte state2, byte state3, byte state4)
 void ledBlink()
 {
   int initTime = millis();
-  int finalTime;
   
-  while(finalTime - initTime < 250){
+  while( millis() - initTime < 250 ){
     digitalWrite(led, LOW);
     delay(50);
     digitalWrite(led, HIGH);
     delay(50);
-    finalTime = millis();
   };
   
   delay(1000);
-  initTime = millis();
-  finalTime = millis();
   
-  while(finalTime - initTime < 250){
+  initTime = millis();
+  
+  while( millis() - initTime < 250){
     digitalWrite(led, LOW);
     delay(50);
     digitalWrite(led, HIGH);
     delay(50);
-    finalTime = millis();
   };
 };
+
 //------------------------------------------->> CONEXÃO WIFI
 
 void wifiStatus()
