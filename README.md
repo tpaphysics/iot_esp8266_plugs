@@ -1,6 +1,6 @@
-# IOT_esp8266_plugs
-
 ## Introdução
+
+Clique na imagem para assistir o vídeo no youtube:
 
 <a href="https://www.youtube.com/watch?v=nxtQYYUIfYE" target="_blank"><img width=300px src="./imagens/oled.jpeg"/></a>
 
